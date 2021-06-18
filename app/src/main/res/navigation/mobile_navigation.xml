@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bbc">
+
+    <fragment
+        android:id="@+id/nav_bbc"
+        android:name="com.project04.newsapp.ui.bbc.HomeFragment"
+        android:label="BBC NEWS"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_CNN"
+        android:name="com.project04.newsapp.ui.cnn.GalleryFragment"
+        android:label="CNN"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_fox"
+        android:name="com.project04.newsapp.ui.fox.SlideshowFragment"
+        android:label="FOX NEWS"
+        tools:layout="@layout/fragment_slideshow" />
+
+
+
+
+</navigation>
